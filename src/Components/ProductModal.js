@@ -80,7 +80,7 @@ const ProductModal = () => {
                     })}
                   />
                   <small className="text-danger">
-                    {errors?.title && errors.title.message}
+                    {errors?.price && errors.price.message}
                   </small>
                 </div>
                 <div className="form-group">
