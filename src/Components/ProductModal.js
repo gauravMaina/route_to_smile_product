@@ -111,7 +111,7 @@ const ProductModal = () => {
                 type="button"
                 className="btn btn-secondary m-4"
                 data-dismiss="modal"
-                onClick={() => navigate(-1)}
+                onClick={() => navigate('/')}
               >
                 Back
               </button>
